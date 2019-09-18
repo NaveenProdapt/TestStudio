@@ -66,7 +66,7 @@
         "DisableDialogMonitoring": false,
         "RunnerResponseTimeout": 0.0,
         "EnableImageSearch": true,
-        "ElementImageSearchTimeout": 3000
+        "ElementImageSearchTimeout": 15000
       }
     },
     "Tests": [

@@ -17,14 +17,17 @@ using ArtOfTest.WebAii.Design.Execution;
 using ArtOfTest.WebAii.ObjectModel;
 using ArtOfTest.WebAii.Silverlight;
 using ArtOfTest.WebAii.Silverlight.UI;
+//using ClassLib;
+using ClassLib;
+
 
 namespace TestProject1
 {
 
     public class Login__1_ : BaseWebAiiTest
     {
-        
-        google1.Utility cls = new google1.Utility();
+        ClassLib.MyClass obj = new ClassLib.MyClass();
+        //Test_16_09.Class1 cls = new Test_16_09.Class1();
         #region [ Dynamic Pages Reference ]
 
         private Pages _pages;
@@ -55,9 +58,9 @@ namespace TestProject1
         {
             // Wait for Exists 'LogMeOutLink'
             
+           
             
-            
-            Pages.MyAccountMyStore.LogMeOutLink.Wait.ForExists(Class1.timeOut);
+            Pages.MyAccountMyStore.LogMeOutLink.Wait.ForExists(Class12.timeOut);
             
         }
     
@@ -65,7 +68,20 @@ namespace TestProject1
         public void Login_1_CodedStep()
         {
             // Enter text 'catharin.mathumitha@gmail.com' in 'EmailText'
-            Actions.SetText(Pages.LoginMyStore.EmailText, Class1.username);
+           // Actions.SetText(Pages.LoginMyStore.EmailText, Class1.username);
+           /* string username;
+            string name1 = Class1.method(name.ToString());
+           
+            Actions.SetText(Pages.LoginMyStore.EmailText,name1);*/
+          //  string user = Test_16_09.Class1.navigate(name);
+            
+            //string text = ClassLib.MyClass.
+            
+            string name2 = ClassLib.MyClass.username;
+            Actions.SetText(Pages.LoginMyStore.EmailText, name2);
+            Console.WriteLine(name2);
+            
+            
             
         }
     }

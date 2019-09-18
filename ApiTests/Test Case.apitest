@@ -103,6 +103,7 @@
     },
     {
       "key": "6VMxXuU7YUkm9fhpl44dfK",
+      "ignored": true,
       "name": "GoTo",
       "action": {
         "key": "6gn9HaTxkY6Zt01pYM3vnu",
@@ -118,10 +119,32 @@
         "key": "1c3Tl3xL50KJSECuQUfAIw",
         "type": "set-variable",
         "properties": {
+          "TargetLevel": 3,
+          "TransformationType": "none",
+          "SourceVariable": "StatusCode",
+          "SourcePathType": "none",
+          "OperationType": "is-equal-number",
+          "Expectation": "",
+          "IgnoreCase": false,
+          "SourcePath": null,
+          "VariableName": "StatusCode"
+        }
+      },
+      "verifications": []
+    },
+    {
+      "key": "7vhZlciH0ENMSsDRHecF9Z",
+      "ignored": true,
+      "name": "Set Variable",
+      "action": {
+        "key": "sbRlgt0InyNWLJImmjqRI",
+        "type": "set-variable",
+        "properties": {
           "TargetLevel": 2,
           "TransformationType": "none",
           "SourceVariable": "Body",
-          "SourcePathType": "none"
+          "SourcePathType": "none",
+          "VariableName": "Body"
         }
       },
       "verifications": []

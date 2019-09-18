@@ -161,7 +161,7 @@
     "SimulateRealTypingByDefault": false,
     "SimulateRealSilverlightUserByDefault": true,
     "DefaultDropDownSelection": 1,
-    "QuickExecutionElementWaitTimeout": 3000,
+    "QuickExecutionElementWaitTimeout": 15000,
     "QuickExecutionClientReadyTimeout": 10000,
     "QcServerUrl": null,
     "QcUserName": "",
@@ -187,11 +187,11 @@
     "SourceControlRepository": {
       "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
       "__value": {
-        "RemotePath": "http://github.com/catharin1203/TestProject.git",
+        "RemotePath": "https://github.com/catharin1203/Test-Project.git ",
         "ServerInfo": {
           "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
           "__value": {
-            "ServerName": "http://github.com/catharin1203/TestProject.git"
+            "ServerName": "https://github.com/catharin1203/Test-Project.git "
           }
         },
         "ServerType": 2
@@ -210,7 +210,7 @@
       "Telerik.TestingFramework.Controls.KendoUI, Version=2019.2.619.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2019.2.619.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestStudio.Translators.Common, Version=2019.2.619.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "google1\\bin\\google1.dll"
+      "C:\\Users\\sumathi.m\\Documents\\SharpDevelop Projects\\ClassLib\\ClassLib\\bin\\Debug\\ClassLib.dll"
     ],
     "ScheduleServerUrl": "http://localhost:8009/",
     "IsScheduleServerRemote": false,

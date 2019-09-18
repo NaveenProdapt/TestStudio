@@ -2590,7 +2590,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "af664ed3-ab6c-4087-96f3-451adf7a2b04",
+            "Runtime ID": "cdc22c47-ea7f-4d3d-a787-ecd373c3d8a9",
             "Description": "Keyboard (KeyPress) - Down (13 times) on 'HistoryBodyTag'",
             "CustomDescription": null,
             "Step": {
@@ -2706,7 +2706,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CheckOutoitd1hh3.q2f",
+            "StepImageKey": "CheckOut3xz3hz0f.aal",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -3043,9 +3043,9 @@
     "TestAssemblyPath": "bin",
     "TestClass": "TestProject1.CheckOut",
     "IsManual": false,
-    "ResourceFilePath": "CheckOut.resx",
-    "ElementImageStoreFilePath": "CheckOut.imgstore",
-    "HasCodeBehind": false,
+    "ResourceFilePath": "New Folder\\CheckOut.resx",
+    "ElementImageStoreFilePath": "New Folder\\CheckOut.imgstore",
+    "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
@@ -3076,11 +3076,11 @@
     "Description": "",
     "Name": "CheckOut",
     "Owner": "",
-    "Path": "CheckOut.tstest",
+    "Path": "New Folder\\CheckOut.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "b570a35b-e753-4fbe-9e43-7cf3ff020002",
-    "Id": "b570a35b-e753-4fbe-9e43-7cf3ff020002",
+    "UniqueId": "5283e669-c524-49eb-b48d-0fd6b12f13df",
+    "Id": "5283e669-c524-49eb-b48d-0fd6b12f13df",
     "ProjectId": "0970c5e5-ac78-4900-b013-3e2d21064469",
     "Version": 200
   }

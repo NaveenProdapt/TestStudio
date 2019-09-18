@@ -17,8 +17,6 @@ using ArtOfTest.WebAii.Design.Execution;
 using ArtOfTest.WebAii.ObjectModel;
 using ArtOfTest.WebAii.Silverlight;
 using ArtOfTest.WebAii.Silverlight.UI;
-using google1;
-
 namespace TestProject1
 {
 
@@ -56,7 +54,7 @@ namespace TestProject1
                         
                         
                         
-                        Pages.MyAccountMyStore.LogMeOutLink.Wait.ForExists(Class1.timeOut);
+                        Pages.MyAccountMyStore.LogMeOutLink.Wait.ForExists(Class12.timeOut);
                         
         }
     }

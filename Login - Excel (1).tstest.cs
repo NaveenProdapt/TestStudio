@@ -21,7 +21,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace TestProject1
 {
 
-    public class Login : BaseWebAiiTest
+    public class Login___Excel__1_ : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
@@ -48,15 +48,11 @@ namespace TestProject1
         
         // Add your test methods here...
     
-        [CodedStep(@"Wait for Exists 'LogMeOutLink'")]
-        public void Login_CodedStep()
+        [CodedStep(@"Enter text 'catharin.mathumitha@gmail.com' in 'EmailText' - DataDriven: [$(UserName)]")]
+        public void Login__Excel_1_CodedStep()
         {
-            // Wait for Exists 'LogMeOutLink'
-            
-            
-            
-            
-            Pages.MyAccountMyStore.LogMeOutLink.Wait.ForExists(Class12.timeOut);
+            // Enter text 'catharin.mathumitha@gmail.com' in 'EmailText'
+            Actions.SetText(Pages.LoginMyStore.EmailText, ((string)(System.Convert.ChangeType(Data["UserName"], typeof(string)))));
             
         }
     }

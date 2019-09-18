@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace TestProject1
 {
-    public class Class1
+    public class Class12
     {
        /* public void executionError(Exception e)
         {
@@ -18,6 +18,11 @@ namespace TestProject1
         public static int timeOut = 3000;
         
         public static string username = "catharin.mathumitha@gmail.com";
+        
+        public static string method(string name){
+            name = "mathu1@gmail.com";
+            return name;
+        }
        
         
     }

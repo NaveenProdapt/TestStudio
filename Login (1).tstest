@@ -20,7 +20,7 @@
       "Telerik.TestingFramework.Controls.KendoUI, Version=2019.2.619.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2019.2.619.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestStudio.Translators.Common, Version=2019.2.619.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      "C:\\Users\\sumathi.m\\Documents\\SharpDevelop Projects\\ClassLib\\ClassLib\\bin\\Debug\\ClassLib.dll"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -78,7 +78,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
               "__value": {
-                "Code": "            // Wait for Exists 'LogMeOutLink'\r\n            \r\n            \r\n            \r\n            Pages.MyAccountMyStore.LogMeOutLink.Wait.ForExists(Class1.timeOut);\r\n            ",
+                "Code": "            // Wait for Exists 'LogMeOutLink'\r\n            \r\n           \r\n            \r\n            Pages.MyAccountMyStore.LogMeOutLink.Wait.ForExists(Class12.timeOut);\r\n            ",
                 "RequiresSilverlight": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
@@ -112,7 +112,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "97f940e2-5c52-4df0-b65e-f0882240e753",
+            "Runtime ID": "037f749f-8b97-4d0e-8fe5-fb537a159d5e",
             "Description": "IF (Wait for Exists 'LogMeOutLink')",
             "CustomDescription": null,
             "Step": {
@@ -410,7 +410,7 @@
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
                                 "__value": {
-                                  "Code": "            // Enter text 'catharin.mathumitha@gmail.com' in 'EmailText'\r\n            Actions.SetText(Pages.LoginMyStore.EmailText, Class1.username);\r\n            ",
+                                  "Code": "            // Enter text 'catharin.mathumitha@gmail.com' in 'EmailText'\r\n           // Actions.SetText(Pages.LoginMyStore.EmailText, Class1.username);\r\n           /* string username;\r\n            string name1 = Class1.method(name.ToString());\r\n           \r\n            Actions.SetText(Pages.LoginMyStore.EmailText,name1);*/\r\n          //  string user = Test_16_09.Class1.navigate(name);\r\n            \r\n            //string text = ClassLib.MyClass.\r\n            \r\n            string name2 = ClassLib.MyClass.username;\r\n            Actions.SetText(Pages.LoginMyStore.EmailText, name2);\r\n            Console.WriteLine(name2);\r\n            \r\n            \r\n            ",
                                   "RequiresSilverlight": false,
                                   "WaitOnElements": true,
                                   "WaitOnElementsTimeout": 30000,
@@ -444,8 +444,145 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
+                              "Runtime ID": "cf33a616-adde-4de5-9459-8529821f262a",
+                              "Description": "Enter text '12345' in 'PasswdPassword'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+                                "__value": {
+                                  "RawText": "12345",
+                                  "SimulateRealTyping": false,
+                                  "TypingSpeed": 50,
+                                  "KeyHoldTime": 100,
+                                  "IsPassword": false,
+                                  "TypingInfo": {
+                                    "ElementText": "12345",
+                                    "TypedText": "12345",
+                                    "CaretPosition": 5,
+                                    "IsTextArea": false,
+                                    "IsBackSpace": false
+                                  },
+                                  "Encrypt": false,
+                                  "SupportUnicode": true,
+                                  "ScrollToVisibleType": 0,
+                                  "UsejQuery": false,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "textTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "textTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "http://automationpractice.com/index.php",
+                                            "Query": "?controller=authentication&back=my-account",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Login - My Store",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "LoginMyStore"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "3ESTlcg8Tz7Y4IoKy5QzJeImnjc=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "PasswdPassword",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=passwd"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=input"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/div[2]/span[1]/input[1]",
+                                            "ImageSearchClauses": [
+                                              {
+                                                "__type": "ArtOfTest.Common.ImageSearchClause",
+                                                "__value": {
+                                                  "Resolution": "1366, 768",
+                                                  "BroweserType": 7,
+                                                  "Image": "21F2CDA637F17F3B6E3A832DDC36993DC594C1B94B8620E35A34AB858B7E459D",
+                                                  "Index": 0,
+                                                  "MatchThreshold": 90,
+                                                  "OsVersion": "10.0.17763.0",
+                                                  "ScreenScale": 1.0
+                                                }
+                                              }
+                                            ],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {},
+                                  "_canEncrypt": true,
+                                  "_cipher": null
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 3,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Login (1)uanl1xcc.xjx",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
                               "Runtime ID": "e9441396-705b-44b6-843b-dce86f08bbc1",
-                              "Description": "Enter text '*****' in 'PasswdPassword'",
+                              "Description": "Enter text 'mathu1234' in 'PasswdPassword'",
                               "CustomDescription": null,
                               "Step": {
                                 "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -454,7 +591,7 @@
                                   "SimulateRealTyping": false,
                                   "TypingSpeed": 50,
                                   "KeyHoldTime": 100,
-                                  "IsPassword": true,
+                                  "IsPassword": false,
                                   "TypingInfo": {
                                     "ElementText": "mathu12",
                                     "TypedText": "mathu12",
@@ -567,8 +704,8 @@
                                   "_cipher": null
                                 }
                               },
-                              "Enabled": true,
-                              "Order": 3,
+                              "Enabled": false,
+                              "Order": 4,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
@@ -690,7 +827,7 @@
                                 }
                               },
                               "Enabled": true,
-                              "Order": 4,
+                              "Order": 5,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
@@ -812,7 +949,7 @@
                                 }
                               },
                               "Enabled": true,
-                              "Order": 5,
+                              "Order": 6,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
@@ -949,7 +1086,7 @@
                                 }
                               },
                               "Enabled": false,
-                              "Order": 6,
+                              "Order": 7,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,
@@ -1086,7 +1223,7 @@
                                 }
                               },
                               "Enabled": false,
-                              "Order": 7,
+                              "Order": 8,
                               "Id": "",
                               "StepState": 0,
                               "ContinueOnFailure": false,

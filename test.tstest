@@ -1756,7 +1756,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "7df532f6-d349-45c0-b969-3450a1b8eb31",
+            "Runtime ID": "735ff508-9f6c-4cee-9e99-d0f73421110d",
             "Description": "IF (Wait for Exists 'LogInToLink')",
             "CustomDescription": null,
             "Step": {
@@ -2741,6 +2741,56 @@
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "testtsk0qhk2.3ki",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "80fc9715-5970-4468-bb96-051a5b93538d",
+            "Description": "Execute API test 'Test Case'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteApiTestActionDescriptor",
+              "__value": {
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "TestName": "Test Case",
+                "TestPath": ".\\Test Case",
+                "Variables": [
+                  {
+                    "Name": "base-url",
+                    "Value": "automationpractice.com"
+                  },
+                  {
+                    "Name": null,
+                    "Value": null
+                  }
+                ],
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 18,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "testv4rb3ivg.pqw",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
