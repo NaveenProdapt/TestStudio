@@ -187,11 +187,11 @@
     "SourceControlRepository": {
       "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
       "__value": {
-        "RemotePath": "https://github.com/catharin1203/Test-Project.git",
+        "RemotePath": "https://github.com/NaveenProdapt/TestStudio.git",
         "ServerInfo": {
           "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
           "__value": {
-            "ServerName": "https://github.com/catharin1203/Test-Project.git"
+            "ServerName": "https://github.com/NaveenProdapt/TestStudio.git"
           }
         },
         "ServerType": 2
